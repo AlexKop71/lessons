@@ -21,7 +21,7 @@ echo $year['Summer']['Monthes']['1']."<br />";
 echo $year['Summer']['Monthes']['2']."<br />";
 echo $year['Summer']['Monthes']['3']. "<br />";
 
-$year['Outumm']['Monthes']['1'] ='Сентябрь';
+$year['Outumm']['Monthes']['1']='Сентябрь';
 $year['Outumm']['Monthes']['2']='Октябрь';
 $year['Outumm']['Monthes']['3']='Ноябрь';
 echo $year['Outumm']['Monthes']['1']."<br />";
