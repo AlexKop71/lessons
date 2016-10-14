@@ -1,18 +1,29 @@
 <?php
 
-function Welcome (){
-    $name = Алексей ;
-    $surname = Коптяев ;
-    echo "Здравствуй $name $surname!";
-}
-Welcome() ;
+$year['Winter']['Monthes']['1'] ='Декабрь';
+$year['Winter']['Monthes']['2']='Январь';
+$year['Winter']['Monthes']['3']='Февраль';
+echo $year['Winter']['Monthes']['1']."<br />";
+echo $year['Winter']['Monthes']['2']."<br />";
+echo $year['Winter']['Monthes']['3']. "<br />";
 
-function CheckAge ($age) {
-    if($age= 18 and $age<18)
-echo "Школа";
-if ($age=3 and $age <7)
-echo "Садик";
-if($age=18 and $age <21)
-echo "Университет";
-}
-CheckAge(20);
+$year['Spring']['Monthes']['1'] ='Март';
+$year['Spring']['Monthes']['2']='Апрель';
+$year['Spring']['Monthes']['3']='Май';
+echo $year['Spring']['Monthes']['1']."<br />";
+echo $year['Spring']['Monthes']['2']."<br />";
+echo $year['Spring']['Monthes']['3']. "<br />";
+
+$year['Summer']['Monthes']['1'] ='Июнь';
+$year['Summer']['Monthes']['2']='Июль';
+$year['Summer']['Monthes']['3']='Август';
+echo $year['Summer']['Monthes']['1']."<br />";
+echo $year['Summer']['Monthes']['2']."<br />";
+echo $year['Summer']['Monthes']['3']. "<br />";
+
+$year['Outumm']['Monthes']['1'] ='Сентябрь';
+$year['Outumm']['Monthes']['2']='Октябрь';
+$year['Outumm']['Monthes']['3']='Ноябрь';
+echo $year['Outumm']['Monthes']['1']."<br />";
+echo $year['Outumm']['Monthes']['2']."<br />";
+echo $year['Outumm']['Monthes']['3']. "<br />";
