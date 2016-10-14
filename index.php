@@ -5,7 +5,7 @@ $year['Winter']['Monthes']['2']='Январь';
 $year['Winter']['Monthes']['3']='Февраль';
 echo $year['Winter']['Monthes']['1']."<br />";
 echo $year['Winter']['Monthes']['2']."<br />";
-echo $year['Winter']['Monthes']['3']. "<br />";
+echo $year['Winter']['Monthes']['3']."<br />";
 
 $year['Spring']['Monthes']['1'] ='Март';
 $year['Spring']['Monthes']['2']='Апрель';
