@@ -1,30 +1,35 @@
 <?php
+$n=1;
+$m=7;
 
-    $year['Winter']['Monthes']['1'] ='Декабрь';
-    $year['Winter']['Monthes']['2']='Январь';
-    $year['Winter']['Monthes']['3']='Февраль';
-    echo $year['Winter']['Monthes']['1']."<br />";
-    echo $year['Winter']['Monthes']['2']."<br />";
-    echo $year['Winter']['Monthes']['3']."<br />";
-
-    $year['Spring']['Monthes']['1'] ='Март';
-    $year['Spring']['Monthes']['2']='Апрель';
-    $year['Spring']['Monthes']['3']='Май';
-    echo $year['Spring']['Monthes']['1']."<br />";
-    echo $year['Spring']['Monthes']['2']."<br />";
-    echo $year['Spring']['Monthes']['3']. "<br />";
-
-    $year['Summer']['Monthes']['1'] ='Июнь';
-    $year['Summer']['Monthes']['2']='Июль';
-    $year['Summer']['Monthes']['3']='Август';
-    echo $year['Summer']['Monthes']['1']."<br />";
-    echo $year['Summer']['Monthes']['2']."<br />";
-    echo $year['Summer']['Monthes']['3']. "<br />";
-
-    $year['Outumm']['Monthes']['1']='Сентябрь';
-    $year['Outumm']['Monthes']['2']='Октябрь';
-    $year['Outumm']['Monthes']['3']='Ноябрь';
-    echo $year['Outumm']['Monthes']['1']."<br />";
-    echo $year['Outumm']['Monthes']['2']."<br />";
-    echo $year['Outumm']['Monthes']['3']. "<br />";
-
+echo "Возможные цифры от аккаунта :".'<br />';
+echo $n.$n."<br />";
+echo $m.$n."<br />";
+echo $n.$m."<br />";
+echo $m.$m."<br />";
+echo $m.$m.$m."<br />";
+echo $m.$m.$n."<br />";
+echo $n.$m.$n."<br />";
+echo $n.$n.$m."<br />";
+echo $m.$n.$n."<br />";
+echo $n.$m.$n."<br />";
+echo $n.$n.$n."<br />";
+echo $n.$m.$m."<br />";
+echo $m.$m.$m.$m."<br />";
+echo $m.$m.$m.$n."<br />";
+echo $m.$m.$n.$m."<br />";
+echo $m.$n.$m.$m."<br />";
+echo $n.$m.$m.$m."<br />";
+echo $m.$m.$n.$n."<br />";
+echo $m.$n.$n.$m."<br />";
+echo $n.$n.$m.$m."<br />";
+echo $n.$m.$n.$m."<br />";
+echo $n.$m.$m.$n."<br />";
+echo $m.$n.$m.$n."<br />";
+echo $n.$n.$n.$n."<br />";
+echo $m.$n.$n.$n."<br />";
+echo $n.$m.$n.$n."<br />";
+echo $n.$n.$m.$n."<br />";
+echo $n.$n.$n.$m."<br />";
+echo "Всего 28 вариантов!"."<br />"."Мне понадобиться чуть больше часа на то что бы найти свой аккаунт!"."<br />";
+echo "Вероятность нахождения аккаунта с первой попытки - 3,6%."."Следовательно с каждой неправильной попыткой вероятность нахождения увеличивается на 3,6%";
