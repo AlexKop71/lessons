@@ -1,30 +1,41 @@
 <?php
+    // Создаем массивы
 
-    $year['Winter']['Monthes']['1'] ='Декабрь';
-    $year['Winter']['Monthes']['2']='Январь';
-    $year['Winter']['Monthes']['3']='Февраль';
-    echo $year['Winter']['Monthes']['1']."<br />";
-    echo $year['Winter']['Monthes']['2']."<br />";
-    echo $year['Winter']['Monthes']['3']."<br />";
+    $season['Winter'] = "Зима";
+    $season['Spring'] = "Весна";
+    $season['Summer'] = "Лето";
+    $season['Autumn'] = "Осень";
 
-    $year['Spring']['Monthes']['1'] ='Март';
-    $year['Spring']['Monthes']['2']='Апрель';
-    $year['Spring']['Monthes']['3']='Май';
-    echo $year['Spring']['Monthes']['1']."<br />";
-    echo $year['Spring']['Monthes']['2']."<br />";
-    echo $year['Spring']['Monthes']['3']. "<br />";
+        // зима
+    $mounth['Winter'][] = 'Декабрь';
+    $mounth['Winter'][] = 'Январь';
+    $mounth['Winter'][] = 'Февраль';
 
-    $year['Summer']['Monthes']['1'] ='Июнь';
-    $year['Summer']['Monthes']['2']='Июль';
-    $year['Summer']['Monthes']['3']='Август';
-    echo $year['Summer']['Monthes']['1']."<br />";
-    echo $year['Summer']['Monthes']['2']."<br />";
-    echo $year['Summer']['Monthes']['3']. "<br />";
+    // весна
+    $mounth['Spring'][] = 'Март';
+    $mounth['Spring'][] = 'Апрель';
+    $mounth['Spring'][] = 'Май';
 
-    $year['Outumm']['Monthes']['1']='Сентябрь';
-    $year['Outumm']['Monthes']['2']='Октябрь';
-    $year['Outumm']['Monthes']['3']='Ноябрь';
-    echo $year['Outumm']['Monthes']['1']."<br />";
-    echo $year['Outumm']['Monthes']['2']."<br />";
-    echo $year['Outumm']['Monthes']['3']. "<br />";
+    // лето
+    $mounth['Summer'][] = 'Июнь';
+    $mounth['Summer'][] = 'Июль';
+    $mounth['Summer'][] = 'Август';
 
+    // осень
+    $mounth['Autumn'][] = 'Сентябрь';
+    $mounth['Autumn'][] = 'Октябрь';
+    $mounth['Autumn'][] = 'Ноябрь';
+
+
+    // выведем
+    foreach ($mounth as $key => $value){
+
+        //названия времен года
+        echo $season[$key].":<br />";
+
+        //названия месяцев
+        foreach ($value as $subvalue){
+            echo $subvalue."<br />";
+        }
+        echo "<br />";
+    }
