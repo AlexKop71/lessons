@@ -1,35 +1,39 @@
-<?php
-$n=1;
-$m=7;
+$season['Winter'] = "Зима";
+    $season['Spring'] = "Весна";
+    $season['Summer'] = "Лето";
+    $season['Autumn'] = "Осень";
 
-echo "Возможные цифры от аккаунта :".'<br />';
-echo $n.$n."<br />";
-echo $m.$n."<br />";
-echo $n.$m."<br />";
-echo $m.$m."<br />";
-echo $m.$m.$m."<br />";
-echo $m.$m.$n."<br />";
-echo $n.$m.$n."<br />";
-echo $n.$n.$m."<br />";
-echo $m.$n.$n."<br />";
-echo $n.$m.$n."<br />";
-echo $n.$n.$n."<br />";
-echo $n.$m.$m."<br />";
-echo $m.$m.$m.$m."<br />";
-echo $m.$m.$m.$n."<br />";
-echo $m.$m.$n.$m."<br />";
-echo $m.$n.$m.$m."<br />";
-echo $n.$m.$m.$m."<br />";
-echo $m.$m.$n.$n."<br />";
-echo $m.$n.$n.$m."<br />";
-echo $n.$n.$m.$m."<br />";
-echo $n.$m.$n.$m."<br />";
-echo $n.$m.$m.$n."<br />";
-echo $m.$n.$m.$n."<br />";
-echo $n.$n.$n.$n."<br />";
-echo $m.$n.$n.$n."<br />";
-echo $n.$m.$n.$n."<br />";
-echo $n.$n.$m.$n."<br />";
-echo $n.$n.$n.$m."<br />";
-echo "Всего 28 вариантов!"."<br />"."Мне понадобиться чуть больше часа на то что бы найти свой аккаунт!"."<br />";
-echo "Вероятность нахождения аккаунта с первой попытки - 3,6%."."Следовательно с каждой неправильной попыткой вероятность нахождения увеличивается на 3,6%";
+        // зима
+    $mounth['Winter'][] = 'Декабрь';
+    $mounth['Winter'][] = 'Январь';
+    $mounth['Winter'][] = 'Февраль';
+
+    // весна
+    $mounth['Spring'][] = 'Март';
+    $mounth['Spring'][] = 'Апрель';
+    $mounth['Spring'][] = 'Май';
+
+    // лето
+    $mounth['Summer'][] = 'Июнь';
+    $mounth['Summer'][] = 'Июль';
+    $mounth['Summer'][] = 'Август';
+
+    // осень
+    $mounth['Autumn'][] = 'Сентябрь';
+    $mounth['Autumn'][] = 'Октябрь';
+    $mounth['Autumn'][] = 'Ноябрь';
+
+
+    // выведем
+    foreach ($mounth as $key => $value){
+
+        //названия времен года
+        echo $season[$key].":<br />";
+
+        //названия месяцев
+        foreach ($value as $subvalue){
+            echo $subvalue."<br />";
+        }
+        echo "<br />";
+    }
+
