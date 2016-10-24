@@ -1,3 +1,12 @@
+<form method="post" action="login.php">
+    Логин:
+    <input type="text" name="login">
+    Пароль:
+    <input type="password" name="parol">
+    <input type="submit" name="button" value="Войти">
+</form>
+
+
 <?php
     // Создаем массивы
 
@@ -38,4 +47,6 @@
             echo $subvalue."<br />";
         }
         echo "<br />";
+
     }
+    ?>
