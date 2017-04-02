@@ -18,8 +18,6 @@
     <!--End CSS-->
 
 </head>
-
-
 <body >
 
 <h2><center>Таблица умножения</center></h2>
